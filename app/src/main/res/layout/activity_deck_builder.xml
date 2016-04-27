@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Save"
+                        android:background="#232323"
+                        android:textColor="#D1A319"
+                        android:id="@+id/saveButton"
+                        android:layout_marginRight="5dp"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deck Analysis"
+                        android:textColor="#D1A319"
+                        android:background="#232323"
+                        android:onClick="analysisClick"
+                        android:layout_marginRight="5dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pricing"
+                        android:id="@+id/pricingButton"
+                        android:textColor="#D1A319"
+                        android:background="#232323" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/deckBuilderCardSearchField"
+                        android:textColor="#D1A319"
+                        android:hint="@string/card_name"
+                        android:textColorHint="#D1A319" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/search_button_label"
+                        android:id="@+id/deckBuilderSearchButton"
+                        android:textColor="#D1A319"
+                        android:background="#232323"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="295dp"
+            android:id="@+id/deckBuilderListView" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Standard:"
+                android:id="@+id/standardView"
+                android:textColor="#D1A319"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modern:"
+                android:id="@+id/modernView"
+                android:textColor="#D1A319"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Legacy:"
+                android:id="@+id/legacyView"
+                android:textColor="#D1A319"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vintage:"
+                android:id="@+id/vintageView"
+                android:textColor="#D1A319"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commander:"
+                android:id="@+id/commanderView"
+                android:textColor="#D1A319"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

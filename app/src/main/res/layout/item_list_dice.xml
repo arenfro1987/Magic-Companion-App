@@ -1,0 +1,13 @@
+
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dice_item"
+        android:textColor="#d1a319"
+        android:textSize="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="#232323"
+        />

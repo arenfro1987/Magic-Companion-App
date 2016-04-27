@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/adSpace"></FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_name"
+                android:id="@+id/titleTextView"
+                android:textColor="#D1A319"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/life_counter_button"
+                    android:id="@+id/lifeCounterButton"
+                    android:minWidth="150dp"
+                    android:minHeight="100dp"
+                    android:background="#232323"
+                    android:textColor="#D1A319"
+                    android:layout_margin="2dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_info_title"
+                    android:id="@+id/cardInfoButton"
+                    android:minWidth="150dp"
+                    android:maxWidth="150dp"
+                    android:minHeight="100dp"
+                    android:background="#232323"
+                    android:textColor="#D1A319"
+                    android:layout_margin="2dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dice_roller_title"
+                    android:id="@+id/diceRollerButton"
+                    android:minWidth="150dp"
+                    android:minHeight="100dp"
+                    android:background="#232323"
+                    android:textColor="#D1A319"
+                    android:layout_margin="2dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rulebook_title"
+                    android:id="@+id/rulebookButton"
+                    android:minWidth="150dp"
+                    android:minHeight="100dp"
+                    android:background="#232323"
+                    android:textColor="#D1A319"
+                    android:layout_margin="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_pricing_title"
+                    android:id="@+id/cardPricingButton"
+                    android:minWidth="150dp"
+                    android:minHeight="100dp"
+                    android:background="#232323"
+                    android:textColor="#D1A319"
+                    android:layout_margin="2dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_activity_ruling_search"
+                    android:minWidth="150dp"
+                    android:minHeight="100dp"
+                    android:onClick="rulingButtonClick"
+                    android:background="#232323"
+                    android:textColor="#D1A319"
+                    android:layout_margin="2dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deck_builder_title"
+                    android:id="@+id/deckBuilderButton"
+                    android:minWidth="150dp"
+                    android:minHeight="100dp"
+                    android:background="#232323"
+                    android:textColor="#D1A319"
+                    android:layout_margin="2dp" />
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"><![CDATA[
+
+            Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shared_decks_title"
+                android:id="@+id/sharedDecksButton"
+                android:minWidth="150dp"
+                android:minHeight="100dp"
+                android:background="#232323"
+                android:textColor="#D1A319"
+                android:layout_margin="2dp" />
+            ]]></LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/adSpace2"></FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

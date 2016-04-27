@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/dice_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dice Type: "
+        android:textSize="15dp"
+        android:textColor="#D1A319"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D1A319"
+        android:textSize="15dp"
+        android:text=": "/>
+    <TextView
+        android:id="@+id/roll_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Value"
+        android:textColor="#D1A319"
+        android:textSize="15dp"/>
+</LinearLayout>

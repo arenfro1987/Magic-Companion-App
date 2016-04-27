@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/about_settings"
+        android:orderInCategory="101" android:showAsAction="never" />
+    <item android:id="@+id/life_counter" android:title="@string/action_life_counter"
+        android:orderInCategory="102" android:showAsAction="ifRoom"
+        android:icon="@drawable/health"/>
+    <item android:id="@+id/card_information" android:title="@string/card_info_title"
+        android:orderInCategory="103" android:showAsAction="never"
+        android:icon="@drawable/search_small"/>
+    <item android:id="@+id/dice_roller" android:title="@string/dice_roller_title"
+        android:orderInCategory="104" android:showAsAction="ifRoom"
+        android:icon="@drawable/dice_icon"/>
+    <item android:id="@+id/rulebook" android:title="@string/rulebook_title"
+        android:orderInCategory="105" android:showAsAction="ifRoom"
+        android:icon="@drawable/rulebook_icon"/>
+    <item android:id="@+id/card_pricing" android:title="@string/card_pricing_title"
+        android:orderInCategory="106" android:showAsAction="ifRoom"
+        android:icon="@drawable/pricing_icon"/>
+    <item android:id="@+id/deck_builder" android:title="@string/deck_builder_title"
+        android:orderInCategory="107" android:showAsAction="ifRoom"
+        android:icon="@drawable/deck_builder_icon"/>
+    <item android:id="@+id/shared_deck" android:title="@string/shared_decks_title"
+        android:orderInCategory="108" android:showAsAction="ifRoom"
+        android:icon="@drawable/share_icon"/>
+</menu>

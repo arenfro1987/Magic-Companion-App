@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Magic Companion</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title">Magic Companion</string>
+    <string name="life_counter_button">Life Counter</string>
+    <string name="card_info_title">Card Information</string>
+    <string name="dice_roller_title">Dice Roller</string>
+    <string name="rulebook_title">Rulebook</string>
+    <string name="card_pricing_title">Card Pricing</string>
+    <string name="deck_builder_title">Deck Builder</string>
+    <string name="shared_decks_title">Shared Decks</string>
+    <string name="title_activity_life_counter_main">LifeCounterMain</string>
+    <string name="title_activity_life_counter">Life Counter</string>
+    <string name="Players">Players</string>
+    <string name="about_settings">About</string>
+    <string name="action_life_counter">Life Counter</string>
+    <string name="title_activity_dice_roller">Dice Roller</string>
+    <string name="dice_instructions">Choose a dice to roll</string>
+    <string name="current_roll_title">Current Roll</string>
+    <string name="roll_history_title">Roll History</string>
+
+
+    <string name="coin_flip">Coin Flip</string>
+
+    <array name="dice_types_strings">
+        <item>Coin Flip</item>
+        <item>D3</item>
+        <item>D4</item>
+        <item>D5</item>
+        <item>D6</item>
+        <item>D8</item>
+        <item>D10</item>
+        <item>D12</item>
+        <item>D20</item>
+        <item>D100</item>
+    </array>
+    <string name="title_activity_ruling_search">Ruling Search</string>
+    <string name="search_instructions">Enter your search criteria to search rulings on MTG
+        Salvation:</string>
+    <string name="search_button_label">Search</string>
+    <string name="title_activity_rule_book">RuleBook</string>
+    <string name="card_name">Name</string>
+    <string name="deck_list_title">Deck List</string>
+    <string name="title_activity_card_search">cardSearchActivity</string>
+    <string name="title_activity_card_detail">cardDetail</string>
+    <string name="title_activity_deck_analysis">DeckAnalysisActivity</string>
+    <string name="title_activity_deck_pricing">Deck Pricing</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

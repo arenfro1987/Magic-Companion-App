@@ -1,0 +1,169 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="edu.uco.rconyac1.magiccompanion.cardDetail"
+        android:background="#000000">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:id="@+id/cardImage"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Card Name"
+            android:gravity="center_horizontal"
+            android:id="@+id/cardNameView"
+            android:layout_below="@+id/cardImage"
+            android:layout_centerHorizontal="true"
+            android:textColor="#D1A319" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_horizontal"
+            android:text="Set"
+            android:id="@+id/setView"
+            android:layout_below="@+id/cardNameView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#D1A319" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_horizontal"
+            android:text="Card Description"
+            android:id="@+id/cardDescView"
+            android:textColor="#D1A319"
+            android:layout_below="@+id/setView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_horizontal"
+            android:text="Rarity"
+            android:id="@+id/rarityView"
+            android:layout_below="@+id/cardDescView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#D1A319" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_horizontal"
+            android:text="Types:"
+            android:id="@+id/typesView"
+            android:layout_below="@+id/rarityView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#D1A319" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_horizontal"
+            android:text="Cost"
+            android:id="@+id/costView"
+            android:layout_below="@+id/typesView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#D1A319" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_horizontal"
+            android:text="Flavor Text"
+            android:id="@+id/flavorView"
+            android:layout_below="@+id/costView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#D1A319" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_horizontal"
+            android:text="Formats"
+            android:id="@+id/formatsView"
+            android:layout_below="@+id/flavorView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#D1A319" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/formatsView"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low Cost"
+                android:id="@+id/lowCost"
+                android:gravity="center_horizontal"
+                android:layout_alignEnd="@+id/cardDescView"
+                android:textColor="#D1A319"
+                android:padding="15px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avg Cost"
+                android:id="@+id/avgCost"
+                android:layout_centerHorizontal="true"
+                android:layout_alignEnd="@+id/cardDescView"
+                android:textColor="#D1A319"
+                android:padding="15px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Cost"
+                android:id="@+id/highCost"
+                android:layout_centerHorizontal="true"
+                android:layout_alignEnd="@+id/cardDescView"
+                android:textColor="#D1A319"
+                android:padding="15px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foil Cost"
+                android:id="@+id/foilCost"
+                android:layout_centerHorizontal="true"
+                android:layout_alignEnd="@+id/cardDescView"
+                android:textColor="#D1A319"
+                android:padding="15px"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
+

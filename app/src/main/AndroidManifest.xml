@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uco.rconyac1.magiccompanion" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/deck_builder_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+
+        >
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LifeCounterMain"
+            android:label="@string/title_activity_life_counter_main" >
+        </activity>
+        <activity
+            android:name=".LifeCounter"
+            android:label="@string/title_activity_life_counter" >
+        </activity>
+        <activity
+            android:name=".DiceRollerActivity"
+            android:label="@string/title_activity_dice_roller" >
+        </activity>
+        <activity
+            android:name=".RulingSearchActivity"
+            android:label="@string/title_activity_ruling_search" >
+        </activity>
+        <activity
+            android:name=".RuleBook"
+            android:label="@string/title_activity_rule_book" >
+        </activity>
+        <activity
+            android:name=".DeckBuilderActivity"
+            android:label="@string/deck_builder_title"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name=".DeckListActivity"
+            android:label="@string/deck_list_title" />
+        <activity
+            android:name=".cardSearchActivity"
+            android:label="@string/title_activity_card_search" >
+            <uses-permission android:name="android.permission.INTERNET" />
+        </activity>
+        <activity
+            android:name=".cardDetail"
+            android:label="@string/title_activity_card_detail" >
+        </activity>
+        <activity
+            android:name=".DeckAnalysisActivity"
+            android:label="@string/title_activity_deck_analysis" >
+        </activity>
+        <activity android:name=".DeckPricingActivity"
+            android:label="@string/title_activity_deck_pricing"/>
+    </application>
+
+</manifest>
